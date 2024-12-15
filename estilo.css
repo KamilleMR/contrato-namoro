@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F4F4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #E9D8BE;
+    color: #333333;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #E9D8BE;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: 100%;
+    height: 30px;
+    margin: 20px auto;
+    /* Centraliza horizontalmente */
+    padding: 10px;
+    border: 1px solid #E9D8BE;
+    box-sizing: border-box;
+    /* Ajusta largura */
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background-color: #E9D8BE;
+    color: #333333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #99ffc5;
+}
+
+/* Estilo do contrato */
+.contrato-pdf {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 20px;
+}
+
+.contrato-pdf h1 {
+    text-align: center;
+}
+
+.contrato-pdf p {
+    margin-bottom: 10px;
+}
+
+#resultado {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Responsividade */
+@media only screen and (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    form {
+        padding: 10px;
+    }
+}

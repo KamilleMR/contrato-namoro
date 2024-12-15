@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrato de Namoro</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Contrato de Namoro</h1>
+    </header>
+    <main>
+        <form id="contrato">
+            <label>Nome do(a) namorado(a): <input type="text" id="nome" required></label>
+            <label>Data de início: <input type="date" id="data-inicio" required></label>
+            <label>Cláusulas:</label>
+            <ul id="clausulas">
+                <li>Se amar eternamente</li>
+                <li>Não deisistir uma da outra</li>
+                <li>Nunca dormir brigadas</li>
+                <li>Sempre falar a verdade</li>
+                <li>Sempre dizer o que sente</li>
+                <li>Não flertar com outras pessoas</li>
+            </ul>
+            <button id="assinatura">Assinar Contrato</button>
+        </form>
+        <div id="resultado"></div>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
